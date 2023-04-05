@@ -1,0 +1,6 @@
+// The objective of this program is to illustrate the principles of inheritance through the idea
+// of shapes. There are types of shapes, with different individual characteristics, but some overarching characteristics that
+// are inherited but modified.
+
+
+// Each header file is a class. One header files contains the inclusion of all and is included in the main
