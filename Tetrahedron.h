@@ -4,7 +4,7 @@
 
 class Tetrahedron : public ThreeDimensionalShape {
 protected:
-	float area;
+
 	float edge;
 public:
 	// Constructor for the tetrahedron
