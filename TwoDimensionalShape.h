@@ -11,4 +11,8 @@ public:
 		name = "TwoDimensionalShape";
 		dimensions = 2;
 	}
+
+	int getDimensions() {
+		return dimensions;
+	}
 };
