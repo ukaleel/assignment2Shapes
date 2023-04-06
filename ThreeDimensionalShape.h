@@ -11,4 +11,8 @@ public:
 		name = "ThreeDimensionalShape";
 		dimensions = 3;
 	}
+
+	int getDimensions() {
+		return dimensions;
+	}
 };
