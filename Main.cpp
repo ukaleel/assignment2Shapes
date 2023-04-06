@@ -12,20 +12,20 @@
 int main() {
 	// Create instances of the 2D shapes
 	Circle happyCircle{ 5 };
-	std::cout << "\nThe area of the "<< happyCircle.getName() << " is: " << happyCircle.getArea();
+	std::cout << "\nThe area of the "<< happyCircle.getDimensions()<<" dimensional " << happyCircle.getName() << " is: " << happyCircle.getArea();
 	Triangle happyTriangle{ 5 , 5 };
-	std::cout << "\nThe area of the " << happyTriangle.getName() << " is: " << happyTriangle.getArea();
+	std::cout << "\nThe area of the " << happyTriangle.getDimensions() << " dimensional " << happyTriangle.getName() << " is: " << happyTriangle.getArea();
 	Square happySquare{ 5 };
-	std::cout << "\nThe area of the " << happySquare.getName() << " is: " << happySquare.getArea();
+	std::cout << "\nThe area of the " << happySquare.getDimensions() << " dimensional " << happySquare.getName() << " is: " << happySquare.getArea();
 
 
 	// Create instances of the 3D shaes
 	Sphere happySphere{ 5 };
-	std::cout << "\nThe surface area of the " << happySphere.getName() << " is: " << happySphere.getArea();
+	std::cout << "\nThe surface area of the " << happySphere.getDimensions() << " dimensional " << happySphere.getName() << " is: " << happySphere.getArea();
 	Cube happyCube{ 5 };
-	std::cout << "\nThe surface area of the " << happyCube.getName() << " is: " << happyCube.getArea();
+	std::cout << "\nThe surface area of the " << happyCube.getDimensions() << " dimensional " << happyCube.getName() << " is: " << happyCube.getArea();
 	Tetrahedron happyTetrahedron{ 5 };
-	std::cout << "\nThe area of the " << happyTetrahedron.getName() << " is: " << happyTetrahedron.getArea();
+	std::cout << "\nThe surface area of the " << happyTetrahedron.getDimensions() << " dimensional " << happyTetrahedron.getName() << " is: " << happyTetrahedron.getArea();
 
 	// Create instance of the moving shape
 	MovableShape happyMoving{0,0};
